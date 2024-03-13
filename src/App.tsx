@@ -54,7 +54,7 @@ export function App() {
   return (
     <>
       <header>
-        <h1>to<span>do</span></h1>
+        <h1>To<span>Do</span></h1>
       </header>
 
       <div className={styles.content}>
