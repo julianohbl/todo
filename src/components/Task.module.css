@@ -1,0 +1,57 @@
+.contentTask {
+  display: flex;
+  justify-content: center;
+  width: 46rem;
+  margin-bottom: 0.75rem;
+}
+
+.task {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+
+  background: var(--gray-500);
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkedIcon {
+  color: var(--purple-dark);
+}
+
+.uncheckedIcon {
+  color: var(--blue);
+}
+
+.content {
+  width: 100%;
+  padding: 1rem;
+}
+
+.contentTask button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+
+  display: flex;
+  align-itens: center;
+
+  border-radius: 2px;
+}
+
+.contentTask button:hover {
+  color: var(--red);
+}
+
+@media (max-width: 768px) {
+  .contentTask {
+    width: 90%;
+  }
+}
